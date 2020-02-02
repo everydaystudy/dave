@@ -3,7 +3,7 @@ from flask import Response
 from flask_restplus import Resource, Api
 from flask_restplus import reqparse
 import json
-import return_dataset
+import dave
 
 
 app = Flask(__name__)
@@ -20,7 +20,7 @@ class GetColumns(Resource):
     @columnsns.doc(responses={403: 'Forbidden'})
     @columnsns.doc(responses={500: 'Internal Server Error'})
     def get(self, fname):
-        lst = return_dataset.return_column_names(fname)
+        lst = dave.return_column_names(fname)
 
         return Response(json.dumps(lst),  mimetype='application/json')
 
@@ -32,7 +32,7 @@ class GetData(Resource):
     @datans.doc(responses={403: 'Forbidden'})
     @datans.doc(responses={500: 'Internal Server Error'})
     def get(self, fname, cname):
-        lst = return_dataset.return_data_by_column(fname, cname)
+        lst = dave.return_data_by_column(fname, cname)
 
         return Response(json.dumps(lst),  mimetype='application/json')
 
