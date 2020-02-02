@@ -5,6 +5,9 @@
 5. 그 함수를 호출하는 REST API 를 Flask Restful 로 만들고
 6. 동작 테스트 코드를 짜고 (200번이 나오나 안나오나)  
 7. Swagger 를 만들고  
+
+![capture](https://user-images.githubusercontent.com/37063919/73609834-b4831080-4614-11ea-9d2a-c5ee2fab7dbb.PNG)
+
 8. Sphinx 로 문서화 한다
 
 - 개인 노트북에 도커가 실행되지 않아, 그냥 iris.csv 파일로 함
