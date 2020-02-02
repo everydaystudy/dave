@@ -6,7 +6,7 @@
 3. 데이터를 쿼리하는 함수를 파이썬으로 만들고(dave.py)  
 4. 그 스크립트에 대한 unittest 코드를 짜고(test_dave.py)  
     - 유닛테스트는 뭘 테스트 해야 하는지 잘 모르겠음
-5. 그 함수를 호출하는 REST API 를 Flask Restful 로 만들고
+5. 그 함수를 호출하는 REST API 를 Flask Restful 로 만들고(app.py)
     - Swagger 때문에 flask restplus 로 함
 6. 동작 테스트 코드를 짜고 (200번이 나오나 안나오나)  
 7. Swagger 를 만들고  
