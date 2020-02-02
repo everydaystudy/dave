@@ -20,7 +20,7 @@ class GetColumns(Resource):
     @columnsns.doc(responses={403: 'Forbidden'})
     @columnsns.doc(responses={500: 'Internal Server Error'})
     def get(self, fname):
-        lst = dave.return_column_names(fname)
+        lst = dave.column_names(fname)
 
         return Response(json.dumps(lst),  mimetype='application/json')
 
@@ -32,7 +32,7 @@ class GetData(Resource):
     @datans.doc(responses={403: 'Forbidden'})
     @datans.doc(responses={500: 'Internal Server Error'})
     def get(self, fname, cname):
-        lst = dave.return_data_by_column(fname, cname)
+        lst = dave.data_by_column(fname, cname)
 
         return Response(json.dumps(lst),  mimetype='application/json')
 
