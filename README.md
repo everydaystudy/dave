@@ -10,7 +10,10 @@
 
 8. Sphinx 로 문서화 한다
 
+  
+  
+  
 - 개인 노트북에 도커가 실행되지 않아, 그냥 iris.csv 파일로 함
 - Swagger 때문에 flask restplus 로 함
 - Flask monitoring dashboard 도 해봐야겠음
-
+- 유닛테스트는 잘 모르겠음
