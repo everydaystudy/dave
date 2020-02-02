@@ -13,3 +13,5 @@
 
 8. Sphinx 로 문서화 한다
     - Flask monitoring dashboard 도 해봐야겠음
+
+9. DockeFile 로 만들자
