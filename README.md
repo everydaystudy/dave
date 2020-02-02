@@ -9,7 +9,7 @@
 5. 그 함수를 호출하는 REST API 를 Flask Restful 로 만들고(app.py)
     - Swagger 때문에 flask restplus 로 함
 6. 동작 테스트 코드를 짜고 (200번이 나오나 안나오나)  
-7. Swagger 를 만들고  
+7. Swagger 를 고  
 
 ![capture](https://user-images.githubusercontent.com/37063919/73609834-b4831080-4614-11ea-9d2a-c5ee2fab7dbb.PNG)
 
