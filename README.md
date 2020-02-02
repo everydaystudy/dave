@@ -11,7 +11,6 @@
 
 ![capture](https://user-images.githubusercontent.com/37063919/73609834-b4831080-4614-11ea-9d2a-c5ee2fab7dbb.PNG)
 
-8. Sphinx 로 문서화 한다
-    - Flask monitoring dashboard 도 해봐야겠음
-
-9. DockeFile 로 만들자
+8. Sphinx 로 문서화 한다  
+9. Flask monitoring dashboard 도 해봐야겠음  
+10. DockeFile 로 만들자
